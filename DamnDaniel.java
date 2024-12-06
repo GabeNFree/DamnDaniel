@@ -2,15 +2,14 @@ import java.util.*;
 
 class Prelim {
     Scanner stab = new Scanner(System.in);
+    int check1;
+    int check2;
+    int check3;
     int signment;
     int proyekt;
     int finExam;
     double lastSurprise;
-
-    int check1;
-    int check2;
-    int check3;
-
+    
     public void inputScores() {
         while (check1 < 100 || check2 < 100 || check3 < 100) {
             while (check1 < 100) {
